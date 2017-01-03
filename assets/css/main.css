@@ -2547,6 +2547,10 @@
 				font-weight: 900;
 			}
 
+			.title i {
+				color: rgba(255, 255, 255, 0.5);
+			}
+
 			.logo_and_clock {
 				width: 100%;
 				padding: 0.5em;
@@ -2641,7 +2645,7 @@
 	color: rgba(255, 255, 255, 0.3);
 	display: inline-block;
 	float: right;
-	font-weight: 500;
+	font-weight: 900;
 	text-align: center;
 	font-size: 1.25em;
 	margin: auto;
@@ -2665,10 +2669,13 @@
 	color: #990000;
 	background: #EEE;
 	display: inline-block;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
 .smalltext{
 	font-size: 0.5em;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+	font-weight: 500;
 }
 
 /* Wide */
@@ -2703,7 +2710,7 @@
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				/*line-height: 1.5em;*/
+				line-height: 1.5em;
 			}
 
 		/* Section/Article */
@@ -2811,13 +2818,22 @@
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: cover;
 			}
 
 		/* Main */
 
 			#main {
-				background-size: 15em;
+				/*background-size: 15em;*/
+			}
+
+			#banner .inner {
+				width: 70%;
+				padding: 1em 0;
+			}
+
+			#clockdiv {
+				float: none;
 			}
 
 		/* CTA */
@@ -3191,6 +3207,10 @@
 
 			footer.major {
 				padding-top: 0;
+			}
+
+			.title h1 {
+				font-size: 3em;
 			}
 
 		/* Icon */
