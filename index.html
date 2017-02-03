@@ -12,6 +12,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon.png" />
 
 		<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,7 +41,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<!-- <h2 id="logo"><a href="index.html">Bama Triathlon</a></h2> -->
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
+							<li class="current"><a href="/">Home</a></li>
+							<li class="current"><a href="#course">Course</a></li>
+							<li class="current"><a href="#race_day">Race Day</a></li>
+							<li class="current"><a href="#contact">Contact</a></li>
+
 							<!-- <li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
@@ -60,7 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</li>
 								</ul>
 							</li> -->
-							<li><a href="https://endurancecui.active.com/event-reg/select-race?e=38960354" class="button special">Register for 2017</a></li>
+							<li><a href="https://endurancecui.active.com/event-reg/select-race?e=38960354" class="button special" id="nav_register" target="_blank">Register for 2017</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -119,54 +124,123 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</div>
 					</div>
 
-
 				</section>
 
 			<!-- Main -->
 				<article id="main">
-					<h2>Thanks for helping to make our inaugural event a huge success! </h2>
+					<!-- <h2>Thanks for helping to make our inaugural event a huge success! </h2> -->
 
-					<section class="wrapper style3 container special">
-						<h2>Stay updated on our 2017 race.</h2>
-					<!-- Begin MailChimp Signup Form -->
-							<style type="text/css">
+				<!-- COURSE OVERIEW SECTION -->
+
+					<section class="wrapper style3 container special" id="course">
+						<h2>Course Overview</h2>
+						<hr />
+						<h2 style="text-align:left;"><strong>Swim</strong></h2>
+						<p style="text-align:left;">The swim will be a 400m indoor pool swim in the UA Aquatic center pool.
+							It will be a snake style swim with a rolling swim start where althetes begin according to their predicted swim time.
+							After exiting the pool, athletes will exit the aquatic center and enter the transition area in the aquatic center parking lot to begin the bike portion of the race.</p>
+						<h2 style="text-align:left;"><strong>Bike</strong></h2>
+						<p style="text-align:left;">
+							The bike course is a hybrid out-and-back and circuit-style course. After passing the UA Rec Center, athletes will turn left onto Campus Drive East and
+							ride two loops as shown in the map. After the second loop, athletes will turn left onto 5th Ave E and return to the transition area.
+							All corners will be monitored by police and race staff to ensure safety.
+						</p>
+
+					<!-- Bike Map Embed -->
+						<iframe id="mapmyfitness_route" src="http://snippets.mapmycdn.com/routes/view/embedded/1434948994?width=600&height=400&elevation=true&line_color=E6000099&rgbhex=990000&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2017-02-02T11:20:51-05:00" ></iframe>
+						<!-- <div style="text-align: right; padding-right: 20px;">
+	          <a target="_blank" rel="noopener noreferrer" href="http://www.mapmyride.com/routes/create/">Create Routes</a>
+	          or <a href="http://www.mapmyride.com/routes/">Search for a route</a>
+	          from millions at <a href="http://www.mapmyride.com">MapMyRide</a>
+					  </div> -->
+
+						<h2 style="text-align:left;"><strong>Run</strong></h2>
+						<p style="text-align:left;">
+							The run course is a simple loop that provides a beautiful tour of the UA campus, beginning with a climb up towards the UA Rec Center and then descending back down through
+							campus, passing by the UA quad and Bryant Denny Stadium before returning to the finish line at the transition area in the Aquatic center parking lot.
+						</p>
+					<!-- Run Map Embed -->
+						<iframe id="mapmyfitness_route" src="http://snippets.mapmycdn.com/routes/view/embedded/1434927787?width=600&height=400&elevation=true&line_color=E6000099&rgbhex=990000&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2017-02-02T10:59:10-05:00" ></iframe>
+						<!-- <div style="text-align: right; padding-right: 20px;">
+							<a target="_blank" rel="noopener noreferrer" href="http://www.mapmyride.com/routes/create/">Create Routes</a>
+							or <a href="http://www.mapmyride.com/routes/">Search for a route</a>
+							from millions at <a href="http://www.mapmyride.com">MapMyRide</a>
+					</div> -->
+
+				</section>
+
+				<!-- RACE DAY SECTION -->
+
+				<section class="wrapper style3 container special" id="race_day">
+					<h2>Race Day Information</h2>
+					<hr />
+
+					<h3>
+						<strong><i class="fa fa-calendar" aria-hidden="true"></i> Sunday, March 25th 2016  
+							 <i class="fa fa-clock-o" aria-hidden="true"></i> 8am
+							<i class="fa fa-map-marker" aria-hidden="true"></i> UA Aquatic Center
+						</strong>
+					</h3>
+
+					<p style="text-align:left;">
+						Athletes and spectators can park at UA Aquatic Center parking lot on
+						Paul W Bryant Drive. Race day packet pickup will be available next to
+						the transition area in the Aquatic center parking lot.
+					</p>
+
+				</section>
+
+				<!-- CONTACT SECTION -->
+
+				<section class="wrapper style3 container special" id="contact">
+					<h2>Stay updated on our 2017 race.</h2>
+				<!-- Begin MailChimp Signup Form -->
+						<style type="text/css">
 
 
-								/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-									 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-							</style>
-						<div id="mc_embed_signup">
-						<form action="//andrewjzeller.us10.list-manage.com/subscribe/post?u=297d441ccb08791813e7813eb&amp;id=585aaef4f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-								<div id="mc_embed_signup_scroll">
+							/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+								 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+						</style>
+					<div id="mc_embed_signup">
+					<form action="//andrewjzeller.us10.list-manage.com/subscribe/post?u=297d441ccb08791813e7813eb&amp;id=585aaef4f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
 
-								<div class="mc-field-group">
-									<!-- <label for="mce-EMAIL">Email Address </label> -->
-									<input type="email" placeholder="your best email" name="EMAIL" class="required email" id="mce-EMAIL">
-								</div>
-							<div id="mce-responses" class="clear">
-								<div class="response" id="mce-error-response" style="display:none"></div>
-								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div class="mc-field-group">
+								<!-- <label for="mce-EMAIL">Email Address </label> -->
+								<input type="email" placeholder="your best email" name="EMAIL" class="required email" id="mce-EMAIL">
+							</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
-								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_297d441ccb08791813e7813eb_585aaef4f3" tabindex="-1" value=""></div>
-								<div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-								</div>
-						</form>
-						</div>
-					<!--End mc_embed_signup-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_297d441ccb08791813e7813eb_585aaef4f3" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</div>
+					</form>
+					</div>
+				<!--End mc_embed_signup-->
+				<br />
+				Please direct any questions to our <a href="mailto:alabama.triathletes@gmail.com" target="_blank">race director</a> or message us on <a href="https://www.facebook.com/bamatriathlon/" target="_blank">Facebook</a>.
 
-					</section>
+				</section>
+
 
 				</article>
 
 			<!-- Footer -->
 				<footer id="footer">
+					<img src="images/2017_bama_tri_logo.png" id='footer_logo'/>
+
 
 					<ul class="icons">
-						<li><a href="https://www.facebook.com/bamatriathlon/" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-						<li>Made by <a href="https://zeller.io">zeller.io</a></li> for <a href="http://www.alabamaclubtriathletes.com">The University of Alabama Club Triathlon Team</a>.
+						<li><a href="https://www.facebook.com/bamatriathlon/" class="icon circle fa-facebook"><span class="label" target="_blank">Facebook</span></a></li>
+						<li>Made by <a href="https://zeller.io" target="_blank">zeller.io</a></li> for <a href="http://www.alabamaclubtriathletes.com" target="_blank">The University of Alabama Club Triathlon Team</a>.
 
 					</ul>
+
+
+
 
 					<!-- <ul class="copyright">
 					</ul> -->
