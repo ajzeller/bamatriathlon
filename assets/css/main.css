@@ -1866,6 +1866,18 @@
 				display: inline-block;
 			}
 
+			#down_arrow {
+				margin: 1em auto auto 0;
+			}
+
+			#down_arrow i:hover {
+				color: #fff;
+				-moz-transition: color 0.2s ease-in-out;
+				-webkit-transition: color 0.2s ease-in-out;
+				-ms-transition: color 0.2s ease-in-out;
+				transition: color 0.2s ease-in-out,
+			}
+
 
 /* Icon */
 
